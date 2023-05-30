@@ -1,0 +1,61 @@
+:root {
+    --bs-blue: #3a0ca3; /* La variable se cambia por el color que esta como valor */
+    --bs-green: #8CBC00;
+    --bs-warning: #343a40;
+}
+
+html{
+    font-size: 62.5%; /* Convierte 1rem en 10px */
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    text-align: justify;   
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+h1,h2,h3{
+    font-family: 'Playfair Display', serif;;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+.footer{
+    background-color: #3a0ca3;
+}
+
+/* ############################################# */
+/* Reescribir colores de boostrap */
+.text-primary, .nombre-sitio{
+    color: var(--bs-blue)!important;
+}
+
+.btn-success{
+    background-color: var(--bs-green)!important;
+}
+
+.bg-primary, .btn-primary{
+    background-color: var(--bs-blue)!important;
+}
+
+.bg-warning{
+    background-color: var(--bs-warning)!important;
+}
+
+.logo{
+	height: 7rem;
+    position: absolute;
+    top: 0.7%;
+    right: 3%;
+}
+

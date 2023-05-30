@@ -19,8 +19,8 @@
 </head>
 <body>
     
-    <header>
-        <h2 class="fs-2">Biblioteca Virtual CUCSur</h2>
-        <h4 class="fs-5">Sistema de prestamos de libros para usuarios del CUCSur</h4>
-        <img src="img/logoUDG.png" alt="Logo" style = "position:absolute;" class="logo">
+    <header class = "bg-dark text-center text-light py-4 mb-5">
+        <h2 class="fs-1">Biblioteca Virtual CUCSur</h2>
+        <h4 class="fs-3">Sistema para prestamos de libros para estudiantes de la biblioteca del Centro Universitario de la Costa Sur</h4>
+        <img src="img/logoUDG.png" alt="logo" class="logo">
     </header>
